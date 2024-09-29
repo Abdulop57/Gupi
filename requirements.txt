@@ -1,0 +1,11 @@
+Flask
+highrise-bot-sdk==24.1.0
+gunicorn
+anyio
+async-timeout
+deep-translator
+gpt4all
+langdetect
+openai
+requests
+transformers
