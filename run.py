@@ -6,11 +6,10 @@ import traceback
 from keep_alive import keep_alive
 import os
 
-bot_file_name = "mybot"
+bot_file_name = "gupi"
 bot_class_name = "MyBot"
-room_id = "656eb5d50bd29fb70deb5508"
-bot_token = "2d590a4808e497b364f0acbc02e517d40d2509af1804dc6667cffd9b9ea21012"
-
+room_id = "663c8e9a07df644e1680ae8c"
+bot_token ="56fa4f17c978f646438e4944a404e3639c5a251225a36d0b0267a697e1a82d85"
 my_bot = BotDefinition(getattr(import_module(bot_file_name), bot_class_name)(), room_id, bot_token)
 
 # Start the Flask server to keep the bot alive
